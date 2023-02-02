@@ -3,12 +3,15 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import Layout from "./components/Layout.vue";
 import TaskList from "./components/TaskList.vue";
-import SearchTask from "./components/SearchTask.vue";
+
+components:{
+  TaskList
+  Layout
+}
 </script>
 
 <template>
   <Layout>
-    <SearchTask />
     <TaskList />
   </Layout>
 </template>

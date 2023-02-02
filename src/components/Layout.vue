@@ -15,11 +15,14 @@
   </header>
   <main>
     
-    <slot></slot>
+    <router-view></router-view>
+
+    
+    <!-- <slot></slot> -->
   </main>
 </template>
 <script>
-export default {};
+export default {}
 </script>
 <style>
 .header {
