@@ -3,9 +3,11 @@
     <!-- HEADER -->
     <b-navbar >
       <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
-      <b-navbar-brand>
+      <router-link to="/">
+      <b-navbar-brand X>
         <img src="../assets/logo.svg" class="logo" alt="Kitten" />
       </b-navbar-brand>
+    </router-link>
       <b-collapse  id="nav-text-collapse" is-nav>
         <b-navbar-nav >
           <b-nav-text>Sistema de Gestión de Tareas</b-nav-text>
